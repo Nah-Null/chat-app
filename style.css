@@ -1,0 +1,35 @@
+/* public/style.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #chat {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #messages {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+  
+  #input {
+    width: calc(100% - 60px);
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px;
+    width: 50px;
+  }
+  
